@@ -1,0 +1,8 @@
+-  function TextAbstract(t,n){return null==t?"":t.length<=n?t:(t=t.substring(0,n),last=t.lastIndexOf(" "),t=t.substring(0,last),t+"...")}
+
+.card
+  .card-block
+    h4.card-title=project.name
+    p.card-text
+      | #{TextAbstract(project.description, 120)}
+    a.card-link(href='#') Card link

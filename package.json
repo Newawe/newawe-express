@@ -1,0 +1,16 @@
+{
+  "name": "newawe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Hampton Moore",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-rc.3"
+  }
+}
